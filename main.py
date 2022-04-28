@@ -31,7 +31,7 @@ async def ping(ctx):
 
 @client.command(name='hello', help=': Devuelve un saludo.')
 async def hello(ctx):
-    responses = ['* ***Bosteza*** * ¿Por qué tan de madrugada? Tqm.', 'Lo mejor en este día para ti. :)', '¡Hola!', '¡Hola, ten un buen día!']
+    responses = ['* ***Bosteza*** * ¿Por qué tan de madrugada?', 'Lo mejor en este día para ti. :)', '¡Hola!', '¡Hola, ten un buen día!']
     await ctx.send(choice(responses))
 
 client.remove_command('help')
